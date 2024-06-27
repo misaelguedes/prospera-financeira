@@ -53,12 +53,6 @@ section img {
     margin-bottom: 20px;
 }
 
-.separacao-bottom {
-    background: linear-gradient(to bottom, transparent, red);
-    margin-top: -20px;
-    height: 50px;
-}
-
 .whats {
     position: fixed;
     bottom: 5px;
@@ -91,7 +85,30 @@ footer img:hover {
     scale: 1.1;
 }
 
+@media screen and (max-width: 1000px) {
+    .button button {
+        width: 150px;
+        font-size: 10px;
+    }
+}
+
 @media screen and (max-width: 600px) {
+    header {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .button {
+        margin-right: 0;
+    }
+    
+    .button button {
+        font-size: 7px;
+        max-width: 100px;
+    }
+    
     .whats img {
         width: 70px;
     }
