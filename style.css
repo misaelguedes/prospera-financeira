@@ -2,12 +2,56 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: open sans;
 }
 
 header {
     display: flex;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-bottom: solid 1px #EE7F24;
 }
 
 .header img {
-    width: 500px;
+    width: 60%;
+    transition: all 0.2s;
+}
+
+.header img:hover {
+    scale: 1.1;
+}
+
+section {
+    text-align: center;
+}
+
+section img {
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+footer {
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #EE7F24;
+}
+
+footer img {
+    width: 200px;
+    transition: all 0.2s;
+}
+
+footer img:hover {
+    scale: 1.1;
+}
+
+@media screen and (max-width: 600px) {
+    footer {
+        font-size: 10px;
+    }
+    
+    footer img {
+        width: 150px;
+    }
 }
