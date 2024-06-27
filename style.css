@@ -8,8 +8,31 @@
 header {
     display: flex;
     padding: 20px;
+    align-items: center;
+    justify-content: space-between;
     margin-bottom: 50px;
     border-bottom: solid 1px #EE7F24;
+}
+
+.button {
+    margin-right: 50px;
+}
+
+.button button {
+    background-color: #435D76;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.2s;
+}
+
+.button button:hover {
+    color: #EE7F24;
+    scale: 1.1;
+    cursor: pointer;
 }
 
 .header img {
@@ -28,6 +51,12 @@ section {
 section img {
     width: 90%;
     margin-bottom: 20px;
+}
+
+.separacao-bottom {
+    background: linear-gradient(to bottom, transparent, red);
+    margin-top: -20px;
+    height: 50px;
 }
 
 .whats {
