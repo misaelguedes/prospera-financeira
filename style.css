@@ -30,8 +30,24 @@ section img {
     margin-bottom: 20px;
 }
 
+.whats {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
+.whats img {
+    width: 100px;
+    transition: all 0.2s;
+}
+
+.whats img:hover {
+    scale: 1.1;
+}
+
 footer {
     font-size: 15px;
+    color: #435D76;
     text-align: center;
     padding: 10px;
     border-top: 1px solid #EE7F24;
@@ -47,11 +63,21 @@ footer img:hover {
 }
 
 @media screen and (max-width: 600px) {
+    .whats img {
+        width: 70px;
+    }
+
     footer {
         font-size: 10px;
     }
     
     footer img {
         width: 150px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .whats img {
+        width: 50px;
     }
 }
