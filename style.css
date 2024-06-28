@@ -14,26 +14,37 @@ header {
     border-bottom: solid 1px #EE7F24;
 }
 
-.button {
+.itens {
     margin-right: 50px;
 }
 
-.button button {
-    background-color: #435D76;
-    font-size: 20px;
+.itens a {
+    text-decoration: none;
+}
+
+.itens i {
+    font-size: 50px;
     font-weight: bold;
-    color: white;
+    color: #435D76;
     padding: 20px;
-    border-radius: 10px;
-    border: none;
     transition: all 0.2s;
 }
 
-.button button:hover {
+.itens i:hover {
+    animation: translateY 0.8s infinite alternate;
     color: #EE7F24;
     scale: 1.1;
     cursor: pointer;
 }
+
+@keyframes translateY {
+    from {
+      transform: translateY(0) scale(1);
+    }
+    to {
+      transform: translateY(-8px) scale(1.1);
+    }
+  }
 
 .header img {
     width: 60%;
@@ -45,12 +56,13 @@ header {
 }
 
 .apresentacao {
+    color: #1a4b79;
     font-size: 3.5em;
     margin-top: 100px;
     margin-bottom: 50px;
 }
 
-hr {
+.titulo {
     border: none;
     height: 1px;
     background: linear-gradient(to right, transparent, transparent, #435D76, transparent, transparent);
@@ -96,6 +108,18 @@ h1 {
     color: #435D76;
 }
 
+hr {
+    height: 1px;
+    color: #435D76;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.endereco {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
 strong {
     color: #435D76;
 }
@@ -138,10 +162,28 @@ footer img:hover {
     scale: 1.1;
 }
 
+@media screen and (max-width: 1040px) {
+    .itens i {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .itens i {
+        font-size: 30px;
+    }
+}
+
 @media screen and (max-width: 1000px) {
-    .button button {
-        width: 150px;
-        font-size: 10px;
+    header {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .itens {
+        margin-right: 0;
     }
 
     .parte1 {
@@ -160,28 +202,12 @@ footer img:hover {
 }
 
 @media screen and (max-width: 600px) {
-    header {
-        display: block;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-
     .apresentacao {
         font-size: 3em;
     }
 
     .parte1 {
         padding: 50px;
-    }
-
-    .button {
-        margin-right: 0;
-    }
-    
-    .button button {
-        font-size: 7px;
-        max-width: 100px;
     }
     
     .whats img {
