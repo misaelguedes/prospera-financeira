@@ -10,8 +10,6 @@ header {
     padding: 20px;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 50px;
-    border-bottom: solid 1px #EE7F24;
 }
 
 .itens {
@@ -56,17 +54,23 @@ header {
 }
 
 .apresentacao {
-    color: #1a4b79;
+    background-color: #EE7F24;
+    color: white;
     font-size: 3.5em;
-    margin-top: 100px;
+    padding-top: 50px;
     margin-bottom: 50px;
+}
+
+.contorno {
+    background-color: #EE7F24;
+    padding: 50px;
+    margin-top: -50px;
 }
 
 .titulo {
     border: none;
     height: 1px;
-    background: linear-gradient(to right, transparent, transparent, #435D76, transparent, transparent);
-    margin-bottom: 50px;
+    background: linear-gradient(to right, transparent, transparent, white, transparent, transparent);
 }
 
 section {
