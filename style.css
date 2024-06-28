@@ -44,12 +44,65 @@ header {
     scale: 1.1;
 }
 
+.apresentacao {
+    font-size: 3.5em;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, transparent, transparent, #435D76, transparent, transparent);
+    margin-bottom: 50px;
+}
+
 section {
     text-align: center;
 }
 
+.parte1 {
+    display: block;
+    padding: 100px;
+    border-bottom: 1px solid #EE7F24;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+.foto1 {
+    float: left;
+    max-width: 500px;
+    margin-bottom: 100px;
+    margin-right: 25px;
+}
+
+.foto2 {
+    float: right;
+    max-width: 500px;
+    margin-bottom: 100px;
+    margin-left: 25px;
+}
+
+.texto {
+    margin-bottom: 200px;
+}
+
+h1, p {
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #435D76;
+}
+
+strong {
+    color: #435D76;
+}
+
 section img {
     width: 90%;
+    margin-top: 50px;
     margin-bottom: 20px;
 }
 
@@ -90,6 +143,20 @@ footer img:hover {
         width: 150px;
         font-size: 10px;
     }
+
+    .parte1 {
+        display: block;
+    }
+
+    .foto1, .foto2 {
+        float: none;
+        margin: auto;
+        display: block;
+    }
+
+    .texto {
+        margin-bottom: 100px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -98,6 +165,14 @@ footer img:hover {
         align-items: center;
         justify-content: center;
         text-align: center;
+    }
+
+    .apresentacao {
+        font-size: 3em;
+    }
+
+    .parte1 {
+        padding: 50px;
     }
 
     .button {
@@ -123,6 +198,14 @@ footer img:hover {
 }
 
 @media screen and (max-width: 300px) {
+    .apresentacao {
+        font-size: 2.5em;
+    }
+    
+    .parte1 {
+        padding: 20px;
+    }
+    
     .whats img {
         width: 50px;
     }
