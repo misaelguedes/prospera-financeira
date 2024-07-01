@@ -84,9 +84,8 @@ section {
     gap: 50px;
     justify-content: center;
     margin-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     padding-bottom: 100px;
-    border-bottom: 1px solid #EE7F24;
 }
 
 .conteudo {
@@ -130,6 +129,14 @@ h1 {
     font-size: 1.2em;
     margin-top: 20px;
     color: #EE7F24;
+}
+
+h2 {
+    background-color: #435D76;
+    font-size: 2.5em;
+    color: white;
+    padding: 20px;
+    margin-bottom: 100px;
 }
 
 p {
@@ -229,6 +236,10 @@ footer p {
 @media screen and (max-width: 600px) {
     .apresentacao {
         font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 2em;
     }
 
     .parte1 {
