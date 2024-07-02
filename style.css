@@ -45,7 +45,7 @@ header {
   }
 
 .header img {
-    width: 60%;
+    width: 45%;
     transition: all 0.2s;
 }
 
@@ -188,7 +188,7 @@ footer {
 }
 
 footer img {
-    width: 200px;
+    width: 180px;
     transition: all 0.2s;
 }
 
@@ -255,7 +255,7 @@ footer p {
     }
     
     footer img {
-        width: 150px;
+        width: 140px;
     }
 }
 
