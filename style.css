@@ -13,7 +13,9 @@ header {
 }
 
 .itens {
+    display: flex;
     margin-right: 50px;
+    justify-content: center;
 }
 
 .itens a {
@@ -45,7 +47,7 @@ header {
   }
 
 .header img {
-    width: 45%;
+    width: 35%;
     transition: all 0.2s;
 }
 
@@ -200,18 +202,6 @@ footer p {
     font-size: 1em;
 }
 
-@media screen and (max-width: 1040px) {
-    .itens i {
-        font-size: 40px;
-    }
-}
-
-@media screen and (max-width: 1020px) {
-    .itens i {
-        font-size: 30px;
-    }
-}
-
 @media screen and (max-width: 1000px) {
     header {
         display: block;
@@ -228,6 +218,11 @@ footer p {
         margin-right: 0;
     }
 
+    .itens i {
+        font-size: 40px;
+        padding: 10px;
+    }
+
     h1 {
         font-size: 1em;
     }
@@ -236,6 +231,10 @@ footer p {
 @media screen and (max-width: 600px) {
     .apresentacao {
         font-size: 2.5em;
+    }
+
+    .itens i {
+        font-size: 30px;
     }
 
     h2 {
