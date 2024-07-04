@@ -6,10 +6,12 @@
 }
 
 header {
+    background-color: rgba(128, 128, 128, 0.26);
     display: flex;
     padding: 20px;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: -20px;
 }
 
 .itens {
@@ -75,6 +77,12 @@ header {
     background: linear-gradient(to right, transparent, transparent, white, transparent, transparent);
 }
 
+.contorno2 {
+    background-color: #435D76;
+    padding: 5px;
+    margin-bottom: 100px;
+}
+
 section {
     text-align: center;
 }
@@ -134,11 +142,10 @@ h1 {
 }
 
 h2 {
-    background-color: #435D76;
-    font-size: 2.5em;
+    font-size: 3em;
     color: white;
     padding: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 
 p {
@@ -225,6 +232,10 @@ footer p {
 
     h1 {
         font-size: 1em;
+    }
+
+    H2 {
+        font-size: 2.5em;
     }
 }
 
