@@ -6,11 +6,11 @@
 }
 
 header {
-    background-color: rgba(128, 128, 128, 0.26);
     display: flex;
     padding: 20px;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid #435D76;
 }
 
 .itens {
@@ -56,26 +56,18 @@ header {
     scale: 1.1;
 }
 
-h2 {
-    font-size: 3em;
-    color: #435D76;
-}
-
 section {
     text-align: center;
 }
 
 section h1 {
+    color: #EE7F24;
     font-size: 2.5em;
 }
 
 .apresentacao {
-    background: linear-gradient(to right, #ee7f24cb, #ee7f24cb, #EE7F24, #EE7F24), 
-    url('assets/imagem8.jfif') center no-repeat;
-    background-size: cover;
-    background-position: top;
-    color: white;
-    padding: 100px;
+    color: black;
+    padding: 100px 150px;
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
@@ -85,6 +77,7 @@ section h1 {
 }
 
 ul {
+    color: #435D76;
     font-size: 1.7em;
     font-style: italic;
     padding: 20px;
@@ -92,49 +85,10 @@ ul {
 
 .essencia {
     width: 95%;
-    margin-bottom: -40px;
 }
 
 .essencia img {
     width: 100%;
-}
-
-.container {
-    display: flex;
-    max-width: 100%;
-    flex-wrap: wrap;
-    gap: 40px;
-    justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 0 15px;
-}
-
-.conteudo {
-    background-color: #EE7F24;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    max-width: 300px;
-    width: 100%;
-    height: auto;
-    padding: 20px;
-    justify-content: center;
-    border-radius: 8px;
-    overflow: hidden;
-    border: 2px solid #435D76;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: all 0.2s;
-}
-
-.conteudo h1 {
-    color: #435D76;
-    font-size: 2em;
-    margin-bottom: 15px;
-}
-
-.conteudo:hover {
-    scale: 1.05;
 }
 
 .endereco {
@@ -159,7 +113,6 @@ ul {
 }
 
 footer {
-    background-color: rgba(128, 128, 128, 0.26);
     font-size: 15px;
     color: #435D76;
     text-align: center;
@@ -180,30 +133,12 @@ footer p {
     font-size: 1em;
 }
 
-@media screen and (max-width: 1308px) {
-    .conteudo2 {
-        display: none;
-    }
-
-    .conteudo3 {
-        display: block;
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1072px) {
     header {
         display: block;
         align-items: center;
         justify-content: center;
         text-align: center;
-    }
-
-    .apresentacao {
-        font-size: 3em;
     }
 
     .itens {
@@ -215,30 +150,22 @@ footer p {
         padding: 10px;
     }
 
-    h1 {
-        font-size: 1em;
+    section h1 {
+        font-size: 2em;
     }
 
-    H2 {
-        font-size: 2.5em;
+    .apresentacao {
+        padding: 70px;
+    }
+
+    ul {
+        font-size: 1.5em;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .apresentacao {
-        font-size: 2.5em;
-    }
-
     .itens i {
         font-size: 30px;
-    }
-
-    h2 {
-        font-size: 2em;
-    }
-
-    .parte1 {
-        padding: 50px;
     }
     
     .whats img {
@@ -255,15 +182,11 @@ footer p {
 }
 
 @media screen and (max-width: 300px) {
-    .apresentacao {
-        font-size: 2em;
+    ul {
+        font-size: 1em;
     }
-    
-    .parte1 {
-        padding: 20px;
-    }
-    
-    .whats img {
+
+   .whats img {
         width: 50px;
     }
 }
