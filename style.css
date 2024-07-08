@@ -60,6 +60,11 @@ section {
     text-align: center;
 }
 
+.sorriso {
+    max-width: 500px;
+    margin-bottom: -200px;
+}
+
 section h1 {
     color: #EE7F24;
     font-size: 2.5em;
@@ -167,6 +172,11 @@ footer p {
     .itens i {
         font-size: 30px;
     }
+
+    .sorriso {
+        max-width: 300px;
+        margin-bottom: -100px;
+    }
     
     .whats img {
         width: 70px;
@@ -182,8 +192,18 @@ footer p {
 }
 
 @media screen and (max-width: 300px) {
+    .sorriso {
+        max-width: 150px;
+        margin-bottom: -50px;
+    }
+
+    .apresentacao {
+        padding: 20px;
+    }
+    
     ul {
         font-size: 1em;
+        padding: 5px;
     }
 
    .whats img {
