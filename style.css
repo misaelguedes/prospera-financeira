@@ -32,20 +32,10 @@ header {
 }
 
 .itens i:hover {
-    animation: translateY 0.8s infinite alternate;
     color: #EE7F24;
-    scale: 1.1;
+    scale: 1.2;
     cursor: pointer;
 }
-
-@keyframes translateY {
-    from {
-      transform: translateY(0) scale(1);
-    }
-    to {
-      transform: translateY(-8px) scale(1.1);
-    }
-  }
 
 .header img {
     width: 35%;
@@ -61,8 +51,8 @@ section {
 }
 
 .sorriso {
-    max-width: 500px;
-    margin-bottom: -200px;
+    max-width: 900px;
+    margin-bottom: -520px;
 }
 
 section h1 {
@@ -79,6 +69,7 @@ section h1 {
     justify-content: space-between;
     align-items: center;
     text-align: justify;
+    margin-top: -50px;
 }
 
 ul {
