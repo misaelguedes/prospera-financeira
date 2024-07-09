@@ -50,7 +50,7 @@ section {
     text-align: center;
 }
 
-.sorriso {
+.marcadagua {
     max-width: 900px;
     margin-bottom: -520px;
 }
@@ -159,14 +159,20 @@ footer p {
     }
 }
 
+@media screen and (max-width: 900px) {
+    .marcadagua {
+        max-width: 600px;
+        margin-bottom: -400px;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .itens i {
         font-size: 30px;
     }
 
-    .sorriso {
+    .marcadagua {
         max-width: 300px;
-        margin-bottom: -100px;
     }
     
     .whats img {
@@ -183,9 +189,9 @@ footer p {
 }
 
 @media screen and (max-width: 300px) {
-    .sorriso {
+    .marcadagua {
         max-width: 150px;
-        margin-bottom: -50px;
+        margin-bottom: -300px;
     }
 
     .apresentacao {
